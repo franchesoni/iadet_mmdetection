@@ -9,6 +9,8 @@ from .sync_norm_hook import SyncNormHook
 from .utils import trigger_visualization_hook
 from .visualization_hook import DetVisualizationHook
 from .yolox_mode_switch_hook import YOLOXModeSwitchHook
+from .reset_train_dataloader_hook import ResetTrainDataloaderHook
+from .convert_to_basedet_hook import ConvertToBaseDetHook
 
 __all__ = [
     'YOLOXModeSwitchHook', 'SyncNormHook', 'CheckInvalidLossHook',
